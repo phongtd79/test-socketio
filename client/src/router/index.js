@@ -6,10 +6,15 @@ const routes = [
     name: 'Home',
     component: () => import('@/views/Home.vue')
   },
+  // {
+  //   path: '/audio',
+  //   name: 'AudioPage',
+  //   component: () => import('@/views/AudioPage.vue')
+  // },
   {
-    path: '/audio',
-    name: 'AudioPage',
-    component: () => import('@/views/AudioPage.vue')
+    path: '/play',
+    name: 'PlayPage',
+    component: () => import('@/views/PlayPage.vue')
   },
 ]                  
                 
